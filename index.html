@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>
-      <?php echo (($domainName == "Dental Benefit Finder") ? "Benefits For
-      Seniors" : $domainName) ?>
-    </title>
+    <title>Benefits For Seniors</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -44,7 +41,9 @@
               Medicare Advantage benefit.
             </p>
           </div>
-          <p class="my-2 md:text-[1.7rem] md:leading-normal text-[0.8rem] w-[92%] md:w-full">
+          <p
+            class="my-2 md:text-[1.7rem] md:leading-normal text-[0.8rem] w-[92%] md:w-full"
+          >
             <span class="font-bold"
               >Benefit plans and options are always changing.</span
             >
@@ -105,9 +104,17 @@
           include:
         </p>
         <ul class="flex flex-col items-center gap-4 mt-4">
-            <li class="flex items-center gap-4 w-44 text-start font-bold" ><img src="/assets/images/buttoncheck.jpeg" alt="button"> Dental Hearing and Vision Care</li>
-            <li class="flex items-center gap-4 w-44 text-start font-bold" ><img src="/assets/images/buttoncheck.jpeg" alt="button"> Groceries</li>
-            <li class="flex items-center gap-4 w-44 text-start font-bold" ><img src="/assets/images/buttoncheck.jpeg" alt="button"> Prescriptions</li>
+          <li class="flex items-center gap-4 w-44 text-start font-bold">
+            <img src="/assets/images/buttoncheck.jpeg" alt="button" /> Dental
+            Hearing and Vision Care
+          </li>
+          <li class="flex items-center gap-4 w-44 text-start font-bold">
+            <img src="/assets/images/buttoncheck.jpeg" alt="button" /> Groceries
+          </li>
+          <li class="flex items-center gap-4 w-44 text-start font-bold">
+            <img src="/assets/images/buttoncheck.jpeg" alt="button" />
+            Prescriptions
+          </li>
         </ul>
         <a href="tel:<?php echo $ringbaNumberPrimaryTel; ?>">
           <button
@@ -121,13 +128,12 @@
             Make a <span class="font-bold">quick call</span> to our licensed
             sales
           </p>
-          <p class="bg-yellow-300 w-64 rounded-b pb-1">agents to learn more before enroll.</p>
+          <p class="bg-yellow-300 w-64 rounded-b pb-1">
+            agents to learn more before enroll.
+          </p>
         </div>
 
-        <div
-          id="countdown"
-          class="w-max px-6 py-2 mx-auto mt-4"
-        >
+        <div id="countdown" class="w-max px-6 py-2 mx-auto mt-4">
           <span class="text-red-500 font-bold" id="time">[XX:XX]]</span>
         </div>
       </div>
